@@ -22,6 +22,7 @@ For local development without `DATABASE_URL`, the API uses `server/data/db.json`
 ```env
 DATABASE_URL=postgresql://user:password@host:5432/db
 JWT_SECRET=change-this-long-random-secret
+NPM_CONFIG_CACHE=/tmp/.npm
 ```
 
 ### 3. Build the Application
@@ -50,11 +51,12 @@ Open [http://localhost:8080](http://localhost:8080).
 ```env
 DATABASE_URL=${{Postgres.DATABASE_URL}}
 JWT_SECRET=replace-with-a-long-random-secret
+NPM_CONFIG_CACHE=/tmp/.npm
 ```
 
 5. Deploy. `railway.json` configures:
 
-- Build command: `npm ci && npm run build`
+- Build command: `npm install && npm run build`
 - Start command: `npm start`
 - Healthcheck: `/api/health`
 

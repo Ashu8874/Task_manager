@@ -115,9 +115,10 @@ The optimized production build will be in the `dist/` directory.
 ```env
 DATABASE_URL=${{Postgres.DATABASE_URL}}
 JWT_SECRET=replace-with-a-long-random-secret
+NPM_CONFIG_CACHE=/tmp/.npm
 ```
 
-Railway uses `railway.json` to run `npm ci && npm run build`, then starts the app with `npm start`. The Node server serves both `/api/*` and the built React app.
+Railway uses `railway.json` to run `npm install && npm run build`, then starts the app with `npm start`. The Node server serves both `/api/*` and the built React app.
 
 ## License
 
