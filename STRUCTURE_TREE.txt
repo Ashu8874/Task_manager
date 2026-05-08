@@ -1,0 +1,68 @@
+teamflow/
+│
+├── 📁 .vscode/
+│   ├── extensions.json          # Recommended VS Code extensions
+│   └── settings.json             # VS Code workspace settings
+│
+├── 📁 public/
+│   └── vite.svg                  # Favicon
+│
+├── 📁 src/
+│   │
+│   ├── 📁 components/            # Reusable UI Components
+│   │   ├── AIInsight.jsx         # AI insight display
+│   │   ├── Avatar.jsx            # User avatar component
+│   │   ├── Badge.jsx             # Status/priority badges
+│   │   ├── Button.jsx            # Reusable button
+│   │   ├── Input.jsx             # Form input component
+│   │   ├── Modal.jsx             # Modal dialog
+│   │   ├── Sidebar.jsx           # Navigation sidebar
+│   │   ├── StatCard.jsx          # Dashboard stat cards
+│   │   ├── TaskCard.jsx          # Task display card
+│   │   └── TaskFormModal.jsx     # Task create/edit modal
+│   │
+│   ├── 📁 data/                  # Data & Constants
+│   │   ├── constants.js          # App-wide constants
+│   │   └── mockData.js           # Initial mock data
+│   │
+│   ├── 📁 hooks/                 # Custom React Hooks
+│   │   └── useLocalStorage.js    # LocalStorage hook
+│   │
+│   ├── 📁 pages/                 # Page Components
+│   │   ├── AuthPage.jsx          # Login/signup page
+│   │   ├── Dashboard.jsx         # Main dashboard
+│   │   ├── ProjectDetailPage.jsx # Project detail view
+│   │   ├── ProjectsPage.jsx      # Projects list
+│   │   ├── TasksPage.jsx         # Tasks kanban/list
+│   │   └── TeamPage.jsx          # Team management
+│   │
+│   ├── 📁 styles/                # Global Styles
+│   │   └── global.css            # Global CSS & animations
+│   │
+│   ├── 📁 utils/                 # Utility Functions
+│   │   ├── aiService.js          # AI API integration
+│   │   ├── dateUtils.js          # Date utilities
+│   │   └── userUtils.js          # User utilities
+│   │
+│   ├── App.jsx                   # Main app component
+│   └── main.jsx                  # Entry point
+│
+├── 📄 .env.example               # Environment variables template
+├── 📄 .eslintrc.cjs              # ESLint configuration
+├── 📄 .gitignore                 # Git ignore rules
+├── 📄 .prettierignore            # Prettier ignore rules
+├── 📄 .prettierrc                # Prettier configuration
+│
+├── 📖 CONTRIBUTING.md            # Contribution guidelines
+├── 📖 DEPLOYMENT.md              # Deployment guide
+├── 📖 LICENSE                    # MIT License
+├── �� PROJECT_STRUCTURE.md       # Architecture docs
+├── 📖 QUICK_START.md             # Quick start guide
+├── 📖 README.md                  # Main documentation
+├── 📖 STRUCTURE_TREE.txt         # This file
+├── 📖 TRANSFORMATION_SUMMARY.md  # Transformation details
+│
+├── 📄 index.html                 # HTML entry point
+├── 📄 package.json               # Dependencies & scripts
+└── 📄 vite.config.js             # Vite configuration
+
